@@ -1,0 +1,214 @@
+
+body{
+    margin: 0;
+    text-align:center;
+    font-family: 'Merriweather', serif;
+}
+h1{
+     position: relative;
+     top: 100px;
+    
+    margin:0 auto ;
+    font-family: 'Sacramento', cursive;
+    font-size: 90px;
+    color: white;
+
+
+}
+
+/* .cloud-1{
+        position: absolute;
+        top: 300px; */
+
+.Top-container{
+    background-color: black;
+    margin-bottom: 10px;
+
+}
+
+.Middle-Container{
+    background-color: Red;
+    width: 200px;
+    height: 200px;
+}
+.Bottom-Container{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+}
+.Pro{
+    text-decoration: underline;
+}
+/* .cloud-2{
+    position: absolute;
+    top: 50px;
+    right: 250px;
+} */
+h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #32de84;
+
+
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+a{
+    color: #11999E;
+}
+.hello{
+    font-weight: normal;
+    color: black;
+}
+.image:hover{
+    position: relative;
+    top: -4px;
+}
+.btn:hover{
+    position:relative;
+    right: -4px;
+    color:red;
+}
+.footer-link:hover{
+    position:relative;
+    right:-4px;
+    color:red;
+}
+#demo
+{
+      color: blue;
+}
+.Hello:hover{
+    position: relative;
+    right:-4px;
+    color: red;
+
+}
+/* .about
+{
+    font-size: 30px;
+    position: absolute;
+    right: 50px;
+    
+} */
+nav 
+{
+    background-color: black ;
+
+    position: absolute;
+    top: 85px;
+}
+
+
+nav li{
+    width:20%;
+    color: white;
+    display: inline-block;
+ font-size:24px;
+}
+nav li a{
+   text-decoration: none;
+   color:#4B4B4B;
+
+}
+
+.main-nav
+{
+    align-items: center;
+    position: sticky;
+    top: 10px;
+}
+.hover1:hover
+{
+    position: relative;
+    right: -4px;
+    color:red;
+    top: 4px;
+}
+.hover2:hover
+{
+    position: relative;
+    right: -4px;
+    color:red;
+    top: 4px;
+}
+.hover3:hover
+{
+    position: relative;
+    right: -4px;
+    color:red;
+    top: 4px;
+}
+.hello1
+{
+    font-size: x-large;
+    color: white;
+}
+.responsive
+{
+    width: 50%;
+    
+}
+/* .burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 10px;
+
+} */
+
+/* .line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+} */
+
+
+@media (max-width: 768px) {
+   
+    /* .cloud-1{
+        position: absolute;
+        right: 30px;
+    } */
+   nav li{
+       left: 0%;
+   }
+    
+    .responsive{
+        width: 75%;
+    }  
+}
+@media (max-width: 253px)
+{
+    .image{
+        width:100%;
+    }
+    
+    
+}
+@media (max-width: 326px)
+{
+    .special{
+        position: relative;
+    font-size: 60px;
+    }
+}
+@media (max-width: 705px)
+{
+    .hover3{
+        position: absolute;
+        left: 0%;
+
+    }
+    nav li{
+        display: flex;
+        padding-bottom: 10%;
+        color: black;
+    }
+    
+   
+}
